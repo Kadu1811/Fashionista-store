@@ -3,9 +3,9 @@ import "./App.css";
 import { BrowserRouter as Router } from "react-router-dom";
 
 import { Menu } from "../layouts/Menu";
-import { Content } from "../layouts/Content";
+import { Content } from "./routes";
 
-function App() {
+const App = () => {
   return (
     <div className="App">
       <Router>
@@ -14,6 +14,6 @@ function App() {
       </Router>
     </div>
   );
-}
+};
 
-export default App;
+export { App };

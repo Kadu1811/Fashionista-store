@@ -2,7 +2,7 @@ import "./Content.css";
 
 import { Route, Routes } from "react-router-dom";
 
-import { Product, About, Contact, NotFound, Home } from "../pages";
+import { Product, About, Contact, NotFound, Home } from "../../pages";
 
 const Content = () => {
   return (

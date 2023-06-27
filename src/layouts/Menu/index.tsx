@@ -20,7 +20,7 @@ const Menu = () => {
             <Link to="/Contact">Contact</Link>
           </li>
           <li>
-            <Link to="/hi">Not found</Link>
+            <Link to="/NotFound">Not found</Link>
           </li>
         </ul>
       </nav>
