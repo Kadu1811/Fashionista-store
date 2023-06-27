@@ -2,7 +2,7 @@ import "./App.css";
 
 import { BrowserRouter as Router } from "react-router-dom";
 
-import { Menu } from "../layouts/Menu";
+import { Menu } from "../layouts";
 import { Content } from "./routes";
 
 const App = () => {
