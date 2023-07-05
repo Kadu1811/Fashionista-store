@@ -1,6 +1,12 @@
 import "./styles.css";
 
-const PageTitle = (props: any) => {
+type Texts = {
+  title: string;
+  subtitle: string;
+  error: undefined;
+};
+
+const PageTitle = (props: Texts) => {
   return (
     <div className={`PageTitle ${props.error ? "error" : ""}`}>
       <h1>{props.title}</h1>

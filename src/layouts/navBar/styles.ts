@@ -1,30 +1,15 @@
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 
-export const ContainerPai = styled.div`
-display: flex;
-justify-content: space-between;
-
-height: 100px;
-background-color: #FFFFFF;
-`;
-
-export const Container = styled.div`
-display: flex;
-align-items: center;
-font-weight: 500;
-
-gap: 2em;
-margin-right: 5em;
-`;
-
 export const Logo = styled.a`
   color: #0a0a0a;
-  font-weight: 700;
-  font-size: 2rem;
+  font-weight: 900;
+  font-size: 3rem;
   align-self: center;
   text-decoration: none;
-  margin-left: 1em;
+  padding-left: 2em;
+
+  font-family: 'Playfair Display', serif;
 
   &:hover {
     cursor: pointer;
@@ -36,12 +21,35 @@ export const Logo = styled.a`
   }
 `;
 
+export const Container = styled.div`
+display: flex;
+justify-content: space-between;
+
+height: 100px;
+background-color: #FFFFFF;
+`;
+
+export const MenuArea = styled.div`
+display: flex;
+align-items: center;
+
+font-family: 'Rubik', sans-serif;;
+font-weight: 600;
+
+gap: 2em;
+padding-right: 6em;
+`;
+
 export const NavLink = styled(Link)`
-color: grey;
-/* font-weight: 500px; */
+display: flex;
+align-items: center;
+
+color: #a6a4a4;
+height: 100%;
 text-decoration: none;
 
 :hover{
     color: #0a0a0a;
+transition-duration:  1s ;
 }
 `;
