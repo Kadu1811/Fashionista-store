@@ -22,6 +22,8 @@ export const Logo = styled.a`
 `;
 
 export const Container = styled.div`
+position: absolute;
+width: 100%;
 display: flex;
 justify-content: space-between;
 

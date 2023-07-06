@@ -1,6 +1,6 @@
 import * as S from "./styles.ts";
 
-const Menu = () => {
+const NavBar = () => {
   return (
     <S.Container>
       <S.Logo href="/">FASHIONISTA</S.Logo>
@@ -15,4 +15,4 @@ const Menu = () => {
   );
 };
 
-export { Menu };
+export { NavBar };
