@@ -1,10 +1,14 @@
-import { PageTitle } from "../../components";
+import { TestDiv } from "./styles";
 
 const Home = () => {
   return (
-    <div className="Home">
-      <PageTitle title="FASHIONISTA" subtitle="oi" />
-    </div>
+    <TestDiv>
+      <div>oi</div>
+      <div className="test">
+        <div>oi</div>
+        <div>oi</div>
+      </div>
+    </TestDiv>
   );
 };
 
