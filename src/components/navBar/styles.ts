@@ -30,7 +30,8 @@ padding: 0 5em 0;
 width: 100%;
 height: 100px;
 
-background-color: rgb(255 255 255 / 60%);
+background-color: rgb(255, 255, 255, 0.9);
+box-shadow: rgba(0, 0, 0, 0.2) -3px 1px 6px 0px;
 
 z-index: 1000;
 `;
