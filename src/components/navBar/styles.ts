@@ -7,7 +7,6 @@ export const Logo = styled.a`
   font-size: 3rem;
   align-self: center;
   text-decoration: none;
-  padding-left: 2em;
 
   font-family: 'Playfair Display', serif;
 
@@ -15,20 +14,26 @@ export const Logo = styled.a`
     cursor: pointer;
   }
 
-  @media (max-width: 540px) {
+  @media (max-width: 820px) {
     font-size: 158%;
-    margin-left: 4%;
+    /* margin-left: 4%; */
   }
 `;
 
 export const Container = styled.div`
-position: absolute;
-width: 100%;
-display: flex;
+position: fixed;
+display:flex ;
 justify-content: space-between;
 
+padding: 0 5em 0;
+
+width: 100%;
 height: 100px;
-background-color: #FFFFFF;
+
+background-color: rgb(255, 255, 255, 0.9);
+box-shadow: rgba(0, 0, 0, 0.2) -3px 1px 6px 0px;
+
+z-index: 1000;
 `;
 
 export const MenuArea = styled.div`
@@ -39,7 +44,6 @@ font-family: 'Rubik', sans-serif;;
 font-weight: 600;
 
 gap: 2em;
-padding-right: 6em;
 `;
 
 export const NavLink = styled(Link)`
@@ -51,7 +55,7 @@ height: 100%;
 text-decoration: none;
 
 :hover{
-    color: #0a0a0a;
-transition-duration:  1s ;
+  color: #0a0a0a;
+  transition-duration:  1s ;
 }
 `;
