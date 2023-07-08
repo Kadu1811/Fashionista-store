@@ -9,7 +9,6 @@ const NavBar = () => {
         <S.NavLink to="/Product">Product</S.NavLink>
         <S.NavLink to="/About">About</S.NavLink>
         <S.NavLink to="/Contact">Contact</S.NavLink>
-        {/* <NavLink to="/NotFound">Not found</NavLink> */}
       </S.MenuArea>
     </S.Container>
   );
